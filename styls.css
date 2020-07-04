@@ -1,0 +1,172 @@
+/***************************************************************************************************************/
+/* element */
+body{
+  text-align: center;
+
+}
+h1 {
+  font-family: 'Montserrat';
+  line-height: 1.5;
+  font-size: 3rem;
+
+}
+h2 , h3{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+}
+.white-background{
+  background-color: #fff;
+}
+.colored-background{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/***************************************************************************************************************/
+/* title section */
+
+#title {
+
+  padding-top: 0;
+
+  text-align: left;
+}
+
+#iphone {
+  width: 60%;
+  transform: rotate(25deg);
+}
+@media (max-width:1028px)  {
+  #iphone{
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+
+}
+
+.title-box{
+  padding-top:60px;
+}
+
+.container-fluid {
+  padding: 3%;
+  padding-left: 200px;
+}
+
+/* navigation bar */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  font-size: 1.5rem;
+  padding-top: 2.5rem;
+  padding-left: 0;
+}
+
+.nav-item {
+  padding: 0;
+}
+
+/* download bottons */
+.download-botton {
+  color: white;
+  margin: 5% 3% 5% 0;
+}
+
+/***********************************************************************************************************************/
+/* Features section */
+
+#features {
+  padding: 10% 15% 0% 15%;
+  font-family: "Ubuntu";
+  position:relative;
+   z-index: 1;
+  bottom: 200px;
+
+}
+
+
+.p-Features {
+  color: #8f8f8f;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.i-Features {
+  color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.i-Features:hover {
+  color: #ff4c68;
+}
+
+/********************************************************************************************************************/
+/* Testimonials section*/
+
+#testimonials {
+  color: #fff;
+  background-color: #ef8172;
+}
+.carousel-item{
+padding: 7% 15% 7% 15%;
+}
+
+
+.testimonials-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/*********************************************************************************************************************/
+/* Press section */
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 15px;
+}
+
+/*********************************************************************************************************************/
+/* pricing section */
+
+#pricing{
+  padding: 100px;
+}
+.card-deck{
+  margin-top: 7%;
+}
+
+/********************************************************************************************************************/
+/* Call to Action  section */
+
+#cta{
+
+
+  padding-top: 5%;
+}
+
+/********************************************************************************************************************/
+/* Footer section */
+
+#footer{
+  color: gray;
+padding: 1% ;
+line-height: 1.5;
+}
+.i-footer{
+  padding-left: 10px;
+}
+.i-footer:hover{
+  color: #ff4c68;
+}
